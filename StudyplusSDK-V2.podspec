@@ -11,6 +11,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.ios.frameworks        = ['UIKit', 'Foundation']
   s.author                = { 'Studyplus inc' => 'developer-all@studyplus.jp' }
-  s.swift_versions        = ['4.2', '5.0']
   s.dependency 'KeychainAccess'
 end
